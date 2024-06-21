@@ -1,0 +1,19 @@
+name: zhijian
+version: '1.0.3-SNAPSHOT'
+main: org.fgg2333.zhijian.Zhijian
+api-version: '1.21'
+description: zhijian server main plugins
+
+commands:
+  zhijian:
+    description: Zhijian command
+    usage: /<command> about
+    permission: zhijian.wanjia
+
+    permissions:
+      zhijian.wanjia:
+        description: 玩家基础
+        default: false
+      zhijian.guanli:
+        description: 管理员身份校验
+        default: false
