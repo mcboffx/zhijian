@@ -2,12 +2,24 @@ name: zhijian
 version: '${project.version}'
 main: org.fgg2333.zhijian.Zhijian
 api-version: '1.21'
-description: zhijian server main plugins
+description: 指尖Server Plugin
 
 commands:
   zhijian:
     description: Zhijian command
     usage: /<command> about
+    permission: zhijian.wanjia
+  tpa:
+    description: 申请传送
+    usage: /tpa <player>
+    permission: zhijian.wanjia
+  tpaccept:
+    description: 同意传送
+    usage: /tpaccept
+    permission: zhijian.wanjia
+  tpano:
+    description: 拒绝传送
+    usage: /tpano
     permission: zhijian.wanjia
 
     permissions:
