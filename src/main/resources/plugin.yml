@@ -21,6 +21,10 @@ commands:
     description: 拒绝传送
     usage: /tpano
     permission: zhijian.wanjia
+  back:
+    description: 返回到上次的位置
+    usage: /back
+    permission: zhijian.wanjia
 
     permissions:
       zhijian.wanjia:

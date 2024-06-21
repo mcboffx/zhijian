@@ -31,7 +31,8 @@ public class TpaCommand implements CommandExecutor {
             }
 
             plugin.getTpaManager().sendTpaRequest(player, target);
-            player.sendMessage(ChatColor.GREEN + "[zhijian]tpa请求已发送到 " + target.getName());
+            plugin.getBackManager().setLastLocation(player, player.getLocation());
+            player.sendMessage(ChatColor.GREEN + "[zhijian]tpa请求已发送到 " + ChatColor.WHITE + target.getName());
             target.sendMessage(ChatColor.GREEN + "[zhijian] " + ChatColor.WHITE + player.getName() + ChatColor.GREEN + " 向你发送传送请求. 同意: " + ChatColor.WHITE + "/tpaccept " + ChatColor.GREEN + "拒绝: " + ChatColor.WHITE +"tpano");
             return true;
         }
