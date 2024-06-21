@@ -28,5 +28,13 @@ escription 管理员身份校验
 "欢迎您加入指尖的小服，当前服务器版本为" plugins version "如有BUG与其他问题，请联系服务器开发者"
 PS:当同时拥有zhijian.guanli和zhijian.wanjia权限组的，则不显示该消息
 
+# TPA
+## /tpa <playerid>
+向玩家发送传送请求
+## /tpaccept
+同意传送请求
+## /tpano
+拒绝传送请求
+
 # Powered By Huyast111
 # ps: 随便写的，别骂QAQ
