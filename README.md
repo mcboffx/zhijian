@@ -36,5 +36,9 @@ PS:当同时拥有zhijian.guanli和zhijian.wanjia权限组的，则不显示该�
 ## /tpano
 拒绝传送请求
 
+# Back
+## /back
+传送回上次的位置
+
 # Powered By Huyast111
 # ps: 随便写的，别骂QAQ
