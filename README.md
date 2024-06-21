@@ -1,10 +1,10 @@
-### Zhijian Server Plugins
+## Zhijian Server Plugins
 ## 权限组说明
 # zhijian.wanjia
-description 玩家基础
+description 玩家基础 /n
 default is true
 # zhijian.guanli
-escription 管理员身份校验
+escription 管理员身份校验 /n
 default is false
 
 ## 睡觉加速
