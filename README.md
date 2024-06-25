@@ -1,3 +1,6 @@
+# 该项目停止维护，新项目
+https://github.com/Huyast1114188/zhijianfabric
+
 # Zhijian Server Plugins
 # 权限组说明
 ## zhijian.wanjia
