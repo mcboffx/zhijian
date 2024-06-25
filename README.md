@@ -36,9 +36,5 @@ PS:当同时拥有zhijian.guanli和zhijian.wanjia权限组的，则不显示该�
 ## /tpano
 拒绝传送请求
 
-# Back
-## /back
-玩家返回上次位置的功能，包括 TPA 传送位置、上次死亡位置和使用 /back 命令的位置
-
 # Powered By Huyast111
 # ps: 随便写的，别骂QAQ

@@ -25,6 +25,10 @@ commands:
     description: 返回到上次的位置
     usage: /back
     permission: zhijian.wanjia
+  res:
+    description: Add, teleport to, get info about, delete, or list saved locations
+    usage: /res <add|tp|about|del|list> <name>
+    permission: zhijian.wanjia
 
     permissions:
       zhijian.wanjia:
